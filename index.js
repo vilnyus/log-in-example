@@ -60,7 +60,7 @@ app.post('/sign_up', function(req, res) {
   return res.redirect('/signup_success.html');
 });
 
-app.post('/log_in', function(req, res) {
+app.post('/login', function(req, res) {
   var name = req.body.name;
   var pass = req.body.password;
 });
