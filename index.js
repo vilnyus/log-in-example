@@ -21,7 +21,7 @@ db.once('open', function(callback) {
 
 var app = express();
 // app.use(express.static('public'));
-app.use(express.static(__dirname + '/'));
+app.use(express.static(__dirname + '/public'));
 
 // app.use('*/views',express.static(path.join(__dirname, 'public/views')));
 // app.use('*/js',express.static(path.join(__dirname, 'public/javascripts')));
